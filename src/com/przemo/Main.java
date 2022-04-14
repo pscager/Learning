@@ -25,7 +25,7 @@ public class Main  {
                 tab[i]=new Month(months[i],days[i],true);
             else
                 tab[i]=new Month(months[i],days[i]);
-            elementsCount++;
+            elementsCount+++;
         }
         System.out.println("Tab length: "+tab.length);
         for(int i=0;i< tab.length;i++){
